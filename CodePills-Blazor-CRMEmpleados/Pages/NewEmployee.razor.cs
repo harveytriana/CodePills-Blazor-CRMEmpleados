@@ -1,6 +1,4 @@
-#nullable disable
 using System.Net.Http.Json;
-using System.Text.Json;
 
 using Models;
 
@@ -13,17 +11,9 @@ public partial class NewEmployee
 
     async Task SaveAsync()
     {
-        //TODO Validation...
         echo = "Validando...";
         await Task.Delay(2000);
-
-        //// sample:
-        //if(employee.Department.Contains("direccion, desarrollo, diseño, recursoshumanos") == false) {
-        //    echo = "El campo departamento sólo puede tener uno de los siguientes valores: direccion, desarrollo, diseño, recursoshumanos";
-        //    return;
-        //}
-
-        Console.WriteLine("**\n{0}", JsonSerializer.Serialize(employee));
+        //TODO Validations...
 
         // perform POST
         try {

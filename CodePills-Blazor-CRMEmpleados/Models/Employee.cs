@@ -2,8 +2,8 @@
 
 namespace Models;
 
-// map mongo db name rules
-//
+// The decorations resolve the structure that the API delivers
+
 public class Employee
 {
     [JsonPropertyName("nombre")]
@@ -23,6 +23,8 @@ public class Employee
 
     [JsonPropertyName("salario")]
     public decimal Salary { get; set; }
+
+    // NOTE. The fields _id, createdAt, UpdatedAt are managed by mongoDb
 }
 
 
