@@ -32,7 +32,7 @@
     }
 
 .blazor-error-boundary {
-    background-color:ghostwhite;
+    background-color: ghostwhite;
     padding: 1rem 1rem 1rem 3.7rem;
     color: white;
 }
@@ -40,3 +40,7 @@
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+code {
+    color: #c02d76;
+}

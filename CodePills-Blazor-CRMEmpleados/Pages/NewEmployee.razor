@@ -3,33 +3,33 @@
 @inject NavigationManager navigationManager
 
 <div>
-    <form>
-        <div class="mb-3">
-            <label class="form-label">Nombre</label>
-            <input type="text" class="form-control" @bind="employee.FirstName" />
-        </div>
-        <div class="mb-3">
-            <label class="form-label">Apellidos</label>
-            <input type="text" class="form-control" @bind="employee.LastName" />
-        </div>
-        <div class="mb-3">
-            <label htmlFor="inputEmail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail" @bind="employee.Email" />
-        </div>
-        <div class="mb-3">
-            <label htmlFor="inputDepartamento" class="form-label">Departamento</label>
-            <input type="text" class="form-control" id="inputDepartamento" @bind="employee.Department" />
-        </div>
-        <div class="mb-3">
-            <label htmlFor="inputSalario" class="form-label">Salario</label>
-            <input type="number" class="form-control" id="inputSalario" @bind="employee.Salary" />
-        </div>
-        <div class="mb-3">
-            <label htmlFor="inputTelefono" class="form-label">Teléfono</label>
-            <input type="tel" class="form-control" id="inputTelefono" @bind="employee.Phone" />
-        </div>
-        <button class="btn btn-primary" @onclick="SaveAsync">Guardar</button>
-    </form>
+    <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" @bind="employee.FirstName" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Apellidos</label>
+        <input type="text" class="form-control" @bind="employee.LastName" />
+    </div>
+    <div class="mb-3">
+        <label htmlFor="inputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail" @bind="employee.Email" />
+    </div>
+    <div class="mb-3">
+        <label htmlFor="inputDepartamento" class="form-label">Departamento</label>
+        <input type="text" class="form-control" id="inputDepartamento" @bind="employee.Department" />
+    </div>
+    <div class="mb-3">
+        <label htmlFor="inputSalario" class="form-label">Salario</label>
+        <input type="number" class="form-control" id="inputSalario" @bind="employee.Salary" />
+    </div>
+    <div class="mb-3">
+        <label htmlFor="inputTelefono" class="form-label">Teléfono</label>
+        <input type="tel" class="form-control" id="inputTelefono" @bind="employee.Phone" />
+    </div>
+    <button class="btn btn-primary" @onclick="SaveAsync">Guardar</button>
 </div>
 
-
+<!-- Application Messages -->
+<hr />
+<pre>@echo</pre>

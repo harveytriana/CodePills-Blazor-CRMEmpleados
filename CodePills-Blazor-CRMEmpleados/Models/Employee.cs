@@ -6,9 +6,6 @@ namespace Models;
 //
 public class Employee
 {
-    [JsonPropertyName("_id")]
-    public string? Id { get; set; }
-
     [JsonPropertyName("nombre")]
     public string? FirstName { get; set; }
 
@@ -26,12 +23,7 @@ public class Employee
 
     [JsonPropertyName("salario")]
     public decimal Salary { get; set; }
-
-    [JsonPropertyName("createdAt")]
-    public DateTime CreatedAt { get; set; } = default;
-
-    [JsonPropertyName("updatedAt")]
-    public DateTime UpdatedAt { get; set; } = default;
 }
+
 
 

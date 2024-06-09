@@ -10,7 +10,7 @@ public partial class EmployeeList
 
     protected override async Task OnInitializedAsync()
     {
-        var data = await httpClient.GetFromJsonAsync<List<Employee>>("sample-data/empleados.json");
+        var data = await httpClient.GetFromJsonAsync<List<Employee>>("api/empleados");
         if(data is not null) {
             employees.AddRange(data);
         }

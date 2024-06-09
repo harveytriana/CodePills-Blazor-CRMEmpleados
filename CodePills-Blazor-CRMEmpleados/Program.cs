@@ -7,6 +7,11 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+// builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
+// sample
+const string API_ROOT = "https://crm-empleados.onrender.com/";
+
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(API_ROOT) });
 
 await builder.Build().RunAsync();
