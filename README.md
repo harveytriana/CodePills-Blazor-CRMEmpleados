@@ -10,7 +10,7 @@ Similar que en Angular, los componentes se pueden dividir en los tres archivos H
 
 En este proyecto no usé ninguna dependencia de terceros, solo el entorno que ofrece Blazor. No existe una sola línea JS.
 
----
-<sup>Luis Harvey Triana Vega.<br>Software Engineer</sup>
+
+<sup><hr>Luis Harvey Triana Vega.<br>Software Engineer</sup>
 
 
