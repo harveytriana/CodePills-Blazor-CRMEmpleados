@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "66471843dbebabba981ca595",
+    "nombre": "Juan",
+    "apellidos": "Gómez Pérez",
+    "email": "juan.gomez@example.com",
+    "telefono": "555-1234-5678",
+    "departamento": "Ventas",
+    "salario": 30000,
+    "createdAt": "2024-05-17T08:41:39.682Z",
+    "updatedAt": "2024-05-17T08:41:39.682Z"
+  },
+  {
+    "_id": "66471843dbebabba981ca596",
+    "nombre": "María",
+    "apellidos": "López Martínez",
+    "email": "maria.lopez@example.com",
+    "telefono": "555-9876-5432",
+    "departamento": "Recursos Humanos",
+    "salario": 35000,
+    "createdAt": "2024-05-17T08:41:39.683Z",
+    "updatedAt": "2024-05-17T08:41:39.683Z"
+  },
+  {
+    "_id": "66471843dbebabba981ca597",
+    "nombre": "Carlos",
+    "apellidos": "Rodríguez Ramírez",
+    "email": "carlos.rodriguez@example.com",
+    "telefono": "555-5678-9012",
+    "departamento": "Tecnología",
+    "salario": 50000,
+    "createdAt": "2024-05-17T08:41:39.683Z",
+    "updatedAt": "2024-05-17T08:41:39.683Z"
+  },
+  {
+    "_id": "66471843dbebabba981ca598",
+    "nombre": "Laura",
+    "apellidos": "Fernández Sánchez",
+    "email": "laura.fernandez@example.com",
+    "telefono": "555-7890-1234",
+    "departamento": "Marketing",
+    "salario": 40000,
+    "createdAt": "2024-05-17T08:41:39.683Z",
+    "updatedAt": "2024-05-17T08:41:39.683Z"
+  }
+]

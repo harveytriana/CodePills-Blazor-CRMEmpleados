@@ -1,0 +1,21 @@
+﻿@page "/employee-list"
+@inject HttpClient httpClient
+
+@if(employees.Any()) {
+    <div class="empleados-list row">
+        @foreach(var employee in employees) {
+            <div class=" col-12 col-sm-6 col-md-4">
+                <div class="m-2 card my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">@employee.FirstName @employee.LastName</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@employee.Email</h6>
+                        <p class="card-text">@employee.Department</p>
+                        <p class="card-text">@employee.Phone</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+
