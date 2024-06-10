@@ -6,9 +6,9 @@ Blazor se parece más a Angular que a REACT. No obstante es adaptable a ambos mu
 
 Un diferencia de forma en C#, es que los objetos se describen en Pascal, entonces se decoran para que sigan las reglas de JS y así poder consumir la misma API. 
 
-Similar que en Angular, los componentes se pueden dividir en los tres archivos HTML con marcado, Estilos, y código. Por supuesto, en este caso es C# en vez de TS. O, si se prefiere todo en uno solo.
+Similar que en Angular, los componentes se pueden dividir en los tres archivos HTML con marcado, Estilos, y código. Por supuesto, en este caso es C# en vez de TS. O, si se prefiere todo en uno solo. Dejé los componentes divididos.
 
-En este proyecto no usé ninguna dependencia de terceros, solo el entorno que ofrece Blazor. No existe una sola línea JS.
+En este proyecto no usé ninguna dependencia de terceros, solo el entorno que ofrece Blazor. No existe una sola línea JS. LA interfaz de usuariio esta en español, y todo el código en ingles.
 
 <sup>Luis Harvey Triana Vega.<br>Software Engineer</sup>
 
