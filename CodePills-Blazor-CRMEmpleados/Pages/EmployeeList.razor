@@ -1,5 +1,5 @@
 ﻿@page "/employee-list"
-@inject HttpClient httpClient
+@inject EmployeesService employeesService
 
 @if(employees.Any()) {
     <div class="empleados-list row">

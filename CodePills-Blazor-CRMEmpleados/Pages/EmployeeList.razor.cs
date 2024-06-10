@@ -1,5 +1,3 @@
-using System.Net.Http.Json;
-
 using Models;
 
 namespace CodePills_Blazor_CRMEmpleados.Pages;
@@ -10,7 +8,7 @@ public partial class EmployeeList
 
     protected override async Task OnInitializedAsync()
     {
-        var data = await httpClient.GetFromJsonAsync<List<Employee>>("api/empleados");
+        var data = await employeesService.GetAll();
         if(data is not null) {
             employees.AddRange(data);
         }
