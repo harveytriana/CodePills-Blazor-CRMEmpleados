@@ -5,7 +5,7 @@ using Models;
 
 namespace Services;
 
-public class EmployeesService
+public class EmployeesService : IDisposable
 {
     // Can be set in a Development and Production appsettings.json file
     readonly string _apiRoot = "https://crm-empleados.onrender.com/";
@@ -27,4 +27,11 @@ public class EmployeesService
         return await _httpClient.PostAsJsonAsync("api/empleados", employee);
     }
 
+    // When registering as Scoped, it is good practice to remove the API client when the system collects memory.
+    // Update 10-06-24
+    public void Dispose()
+    {
+        _httpClient?.Dispose();
+        GC.SuppressFinalize(this);
+    }
 }
