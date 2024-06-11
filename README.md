@@ -12,4 +12,26 @@ En este proyecto no usé ninguna dependencia de terceros, solo el entorno que of
 
 <sup>Luis Harvey Triana Vega.<br>Software Engineer</sup>
 
+## Epilogo
+
+> Me han preguntado ¿Qué ventajas tendría Blazor WA sobre las tecnologías JS en general? Enumero.
+
+- Se escribe menos código
+- Realmente reactivo o, en otras palabras, inherentemente reactivo.
+- Compilado real (no transposición a JS como lo hace Svelte)
+- Sin DOM virtual (no lo necesita)
+- La aplicación creada es WASM sin desarrollo excesivamente complejo; como lo están intentando hacer otros. 
+- Escribes en un lenguaje fuertemente tipado de alto nivel.
+- Puede usar poderosas librerías binarias, por ejemplo Skia a través de SkiaSharp.
+- Mismo lenguaje y reglas frente al backend, puedes compartir en referencia las mismas librerías de modelos.
+- Puedes usar componentes nativos en otros lenguajes como Rust, C++, o C. 
+
+¿Desventajas?
+
+- Se ha mitificado la carga inicial de la aplicación WA en el cliente. Realmente esto es exagerado, se juzga sobre las primeras versiones de Blazor. Los ingenieros de .NET han puesto interés en minimizar esto, normal y estratégicamente (.net 8).  Personalmente no he visto la necesidad de hacer workaround especiales al respecto, la aplicación se presenta antes de que cuentes hasta 3. El ejemplo publicado acá lo demuestra.
+
+- No se tiene acceso directo al DOM. Por supuesto se ejecuta en el mundo binario, y el DOM es inherente al Browser. Algo que debe quedar claro es Blazor si puede modificar directamente el DOM, más no lo puede leer directamente; realmente se soluciona muy simple con interoperabilidad hacia JS.
+
+
+
 
