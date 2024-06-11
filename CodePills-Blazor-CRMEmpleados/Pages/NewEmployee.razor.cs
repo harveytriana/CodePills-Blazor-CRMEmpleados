@@ -20,5 +20,8 @@ public partial class NewEmployee
             navigationManager.NavigateTo("/");
         }
         echo = $"Respuesta:\n{response}";
+
+        // Note. As in the original, there is no validation, it is about showing the concept.
+        // i.g. for the Department field, only a few words are accepted. You can look at the results to see which ones you can use.
     }
 }
