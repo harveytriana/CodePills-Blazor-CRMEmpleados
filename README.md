@@ -26,7 +26,7 @@ En este proyecto no usé ninguna dependencia de terceros, solo el entorno que of
 - Mismo lenguaje y reglas frente al backend, puedes compartir en referencia las mismas librerías de modelos.
 - Puedes usar componentes nativos en otros lenguajes como Rust, C++, o C. 
 
-> <sup>LSorprende que algunos creadores de contenido sobre temas de Svelte digan que la reactividad parece magia, cuando es rutinario en Blazor WA.</sup>
+> <sup>Sorprende que algunos creadores de contenido sobre temas de Svelte digan que la reactividad parece magia, cuando es rutinario en Blazor WA.</sup>
 
 ¿Desventajas?
 
