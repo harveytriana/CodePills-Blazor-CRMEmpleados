@@ -26,6 +26,8 @@ En este proyecto no usé ninguna dependencia de terceros, solo el entorno que of
 - Mismo lenguaje y reglas frente al backend, puedes compartir en referencia las mismas librerías de modelos.
 - Puedes usar componentes nativos en otros lenguajes como Rust, C++, o C. 
 
+> <sup>LSorprende que algunos creadores de contenido sobre temas de Svelte digan que la reactividad parece magia, cuando es rutinario en Blazor WA.</sup>
+
 ¿Desventajas?
 
 - Se ha mitificado la carga inicial de la aplicación WA en el cliente. Realmente esto es exagerado, se juzga sobre las primeras versiones de Blazor. Los ingenieros de .NET han puesto interés en minimizar esto, normal y estratégicamente (.net 8).  Personalmente no he visto la necesidad de hacer workaround especiales al respecto, la aplicación se presenta antes de que cuentes hasta 3. El ejemplo publicado acá lo demuestra.
