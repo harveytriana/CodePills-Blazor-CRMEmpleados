@@ -16,6 +16,7 @@ En este proyecto no usé ninguna dependencia de terceros, solo el entorno que of
 
 > Me han preguntado ¿Qué ventajas tendría Blazor WA sobre las tecnologías JS en general? Enumero.
 
+<sup>
 - Se escribe menos código
 - Realmente reactivo o, en otras palabras, inherentemente reactivo.
 - Compilado real (no transposición a JS como lo hace Svelte)
@@ -25,7 +26,7 @@ En este proyecto no usé ninguna dependencia de terceros, solo el entorno que of
 - Puede usar poderosas librerías binarias, por ejemplo Skia a través de SkiaSharp.
 - Mismo lenguaje y reglas frente al backend, puedes compartir en referencia las mismas librerías de modelos.
 - Puedes usar componentes nativos en otros lenguajes como Rust, C++, o C. 
-
+</sup>sup>
 > <sup>Sorprende que algunos creadores de contenido sobre temas de Svelte digan que la reactividad parece magia, cuando es rutinario en Blazor WA.</sup>
 
 ¿Desventajas?
