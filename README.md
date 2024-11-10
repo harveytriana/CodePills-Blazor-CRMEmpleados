@@ -1,5 +1,7 @@
 # CodePills-Blazor-CRMEmpleados
 
+> <sup>Actualizado 10-11-2024</sup>
+
 Acerca de la presentación de **Garaje de ideas | Tech**, [Creamos la misma aplicación con ReactJS y Angular y te contamos las diferencias](https://www.youtube.com/watch?v=0uS3VL_auNU), me pregunté cómo se vería el mismo proyecto en Blazor. Más allá del mundo JS, y de la sofisticación con TS, Blazor Web Assembly es una alternativa. 
 
 Blazor se parece más a Angular que a REACT. No obstante, es adaptable a ambos mundos. Podemos hacer una arquitectura similar, en cualquier caso. Me enfoque en la perspectiva Angular. Se aplican los mismos conceptos.
@@ -24,7 +26,8 @@ En este proyecto no usé ninguna dependencia de terceros, solo el entorno que of
 - Escribes en un lenguaje fuertemente tipado de alto nivel.
 - Puede usar poderosas librerías binarias, por ejemplo Skia a través de SkiaSharp.
 - Mismo lenguaje y reglas frente al backend, puedes compartir en referencia las mismas librerías de modelos.
-- Puedes usar componentes nativos en otros lenguajes como Rust, C++, o C. 
+- Puedes usar componentes nativos en otros lenguajes como Rust, C++, o C.
+- El modelo de reactividad de Blazor es equivalente a lo que en Angular se conoce recientemente como Signals. Cada variable en Blazor cuando cambia su valor, y tiene asociado un Wrapper HTML, este se renderiza de manera granular. 
 
 > <sup>Sorprende que algunos creadores de contenido sobre temas de Svelte digan que la reactividad parece magia, cuando es rutinario en Blazor WA.</sup>
 
